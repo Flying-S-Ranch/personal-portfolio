@@ -1,0 +1,38 @@
+* {
+    padding:0;
+    margin:0;
+    /* This is the wireframe */
+border: red 1px solid;
+}
+
+header {
+    min-height: 100px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: turquoise;
+}
+
+main {
+    min-height: 800px;
+}
+
+footer {
+    min-height: 100px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}

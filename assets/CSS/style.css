@@ -1,12 +1,25 @@
+:root {
+    --main-dark: rgb(0, 118, 151);
+    --bright: rgb(255, 177, 41);
+    --anchor: rgb(205, 200, 193);
+
+}
+
 * {
     padding:0;
     margin:0;
     /* This is the wireframe */
 border: red 1px solid;
+text-decoration: none;
 }
 
 header {
     min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--anchor);
 }
 
 header ul {
@@ -16,10 +29,38 @@ header ul {
     list-style-type: none;
 }
 
+li {
+    margin: 0 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 3px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:link {
+    background-color: var(--main-dark);
+    color: var(--anchor);
+    padding: 3px;
+}
+
+a:visited {
+    background-color: var(--main-dark);
+    color: var(--anchor);
+    padding: 3px;
+}
+
+a:hover {
+    background-color: var(--bright);
+    color: var(--main-dark);
+    padding:3px;
+}
+
 
 h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: turquoise;
+    color: var(--main-dark);
+    margin: 20px 15px;
+    vertical-align: middle;
 }
 
 main {
@@ -28,11 +69,23 @@ main {
 
 footer {
     min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--anchor);
+}
+
+h3 {
+    display:flex;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 125%;
+    color: var(--bright);
+    padding: 5px;
 }
 
 footer ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     list-style-type: none;
 }

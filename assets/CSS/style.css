@@ -81,7 +81,20 @@ h1 {
     min-width: 200px;
     min-height: 150px;
     margin: 25px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
     flex: 1 1 100px;
+    background-image: ;
+}
+
+.caption h3 {
+    padding:10px;
+}
+
+.caption p {
+  text-align: center;
 }
 
 footer {

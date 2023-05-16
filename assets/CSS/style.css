@@ -65,23 +65,23 @@ h1 {
     vertical-align: middle;
 }
 
-main {
-    min-height: 800px;
+#about-me, #my-work {
+    margin: 25px;
     background-color: var(--anchor);
     margin: 25px;
 }
 
-
 #project-section {
-    margin: 25px;
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
-    flex: 1 1 300px;
+    justify-content: space-around;
 }
 
 .project-cards {
-    min-width: 30%;
+    min-width: 200px;
     min-height: 150px;
+    margin: 25px;
+    flex: 1 1 100px;
 }
 
 footer {
@@ -123,4 +123,14 @@ footer a:hover {
     background-color: var(--main-dark);
     color: var(--bright);
     padding:3px;
+}
+
+@media screen and (max-width: 420px)  {
+    #about-me, #my-work {
+        margin: 10px;
+        max-width: 350px;
+    }
+    .project-cards {
+        min-width: 50%;
+    }
 }

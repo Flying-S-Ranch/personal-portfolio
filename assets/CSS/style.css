@@ -95,9 +95,9 @@ p {
     justify-content: space-between;
 }
 
-main img {
-    width: 150px;
-    margin: 25px
+main #top-main img {
+    max-width: 150px;
+    margin: 25px;
 }
 
 #about-me p{
@@ -126,7 +126,7 @@ main img {
 
 .project-cards img {
   display:flex;
-  max-width: 200%;
+  max-width: 100%;
   filter: grayscale(100%);
 }
 

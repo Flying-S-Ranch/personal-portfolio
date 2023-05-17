@@ -39,19 +39,19 @@ li {
     font-weight: bold;
 }
 
-a:link {
+header a:link {
     background-color: var(--main-dark);
     color: var(--anchor);
     padding: 3px;
 }
 
-a:visited {
+header a:visited {
     background-color: var(--main-dark);
     color: var(--anchor);
     padding: 3px;
 }
 
-a:hover {
+header a:hover {
     background-color: var(--bright);
     color: var(--main-dark);
     padding:3px;
@@ -86,25 +86,36 @@ h1 {
     align-items: center;
     justify-content: center;
     flex: 1 1 100px;
+    position: relative;
 }
 
 .project-cards img {
   display:flex;
   max-width: 100%;
-  z-index: 0;
   filter: grayscale(100%);
 }
 
 .caption {
-    z-index: 1;
+    background-color: var(--light);
+    border: var(--main-dark) solid 3px;
+    position:absolute;
+    top: 15px;
 }
 
 .caption h3 {
-    padding:10px;
+    padding: 5px 10px;
+    border: var(--main-dark) solid 2px;
+    margin: 2px;
 }
 
 .caption p {
   text-align: center;
+  border: var(--main-dark) solid 2px;
+  margin: 2px;
+}
+
+#project-section img:hover {
+  filter: none;
 }
 
 footer {

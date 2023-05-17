@@ -1,18 +1,18 @@
+
+/* These variable colors are used throughout the webpage  */
 :root {
     --main-dark: rgb(84, 139, 154);
-    --bright: rgb(255, 177, 41);
     --anchor: rgb(63, 63, 63);
     --light: rgb(236, 236, 236);
     --accent-dark: rgb(32, 132, 44);
 
 }
 
+/* These are universal selectors that will be applied to every element unless overridden  */
 * {
     padding:0;
     margin:0;
-    /* This is the wireframe */
-border: red 1px solid;
-text-decoration: none;
+    text-decoration: none;
 }
 
 body {
@@ -26,6 +26,13 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: var(--light);
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--main-dark);
+    margin: 20px 25px;
+    vertical-align: middle;
 }
 
 header ul {
@@ -61,25 +68,18 @@ header a:hover {
     padding:3px;
 }
 
-
-h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: var(--main-dark);
-    margin: 20px 25px;
-    vertical-align: middle;
-}
-
 h2 {
     justify-content: left;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 175%;
     color: var(--main-dark);
-    padding: 5px;
+    padding: 5px 0;
+    margin-left: 25px;
 }
 
-main h2 {
-    padding:0;
-    margin-left: 25px;
+p {
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #about-me, #my-work {
@@ -89,6 +89,20 @@ main h2 {
     text-align: left;
 }
 
+#top-main {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main img {
+    width: 150px;
+    margin: 25px
+}
+
+#about-me p{
+    margin-left: 25px;
+}
 #project-section {
     display:flex;
     flex-wrap: wrap;
@@ -112,7 +126,7 @@ main h2 {
 
 .project-cards img {
   display:flex;
-  max-width: 100%;
+  max-width: 200%;
   filter: grayscale(100%);
 }
 
@@ -147,6 +161,12 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: var(--light);
+    padding-bottom:20px;
+}
+
+footer h2 {
+    text-align: center;
+    margin:0;
 }
 
 h3 {
@@ -166,20 +186,20 @@ footer ul {
 }
 
 footer a:link {
-    background-color: var(--bright);
-    color: var(--main-dark);
+    background-color: var(--accent-dark);
+    color: var(--anchor);
     padding: 3px;
 }
 
 footer a:visited {
-    background-color: var(--bright);
-    color: var(--main-dark);
+    background-color: var(--accent-dark);
+    color: var(--anchor);
     padding: 3px;
 }
 
 footer a:hover {
     background-color: var(--main-dark);
-    color: var(--bright);
+    color: var(--anchor);
     padding:3px;
 }
 

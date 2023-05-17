@@ -20,6 +20,8 @@ I made use of the Meyer Reset at the beginning of my CSS code. This code can be 
 I made use of the MIT License, available here: https://mit-license.org/.
 
 Image Credits:
+The quilt photo and portrait are personal photos.
+
 Stone Photo
 Photo by Dominika Roseclay: https://www.pexels.com/photo/white-pebbles-2682877/
 

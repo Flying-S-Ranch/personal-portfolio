@@ -34,6 +34,9 @@ Photo by Crusenho Agus Hennihuno: https://www.pexels.com/photo/close-up-photogra
 Earth and Moon Photo
 Photo by Pixabay: https://www.pexels.com/photo/blue-and-white-planet-display-87009/
 
+Galaxy Photo
+Photo by Jeremy Thomas: https://unsplash.com/photos/E0AHdsENmDg
+
 # License
 The MIT License (MIT)
 Copyright © 2023 <copyright holders>

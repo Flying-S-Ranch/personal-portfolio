@@ -80,26 +80,40 @@ h2 {
 }
 
 p {
-    font-size: 100%;
+    font-size: 125%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#about-me, #my-work {
-    margin: 25px;
-    background-color: var(--light);
-    margin: 25px;
-    text-align: left;
+#about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px;
 }
 
-#top-main {
-    display:flex;
+#my-work {
+    margin: 25px;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-main #top-main img {
-    max-width: 150px;
-    margin: 25px;
+#about-text {
+    background-color: var(--light);
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    /* max-height: 260px; */
+}
+
+#personal-photo {
+    width: 200px;
+    margin-bottom: 15px;
+    height: auto;
 }
 
 #about-me p{

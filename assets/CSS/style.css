@@ -1,7 +1,7 @@
 
 /* These variable colors are used throughout the webpage  */
 :root {
-    --main-dark: rgb(86, 170, 194);
+    --main-dark: rgb(139, 189, 203);
     --anchor: rgb(63, 63, 63);
     --light: rgb(236, 236, 236);
     --accent-dark: rgb(65, 134, 25);
@@ -16,7 +16,7 @@
 }
 
 body {
-    background-color: var(--accent-dark);
+    background-color: var(--main-dark);
 }
 
 header {
@@ -65,23 +65,9 @@ header a:visited {
 }
 
 header a:hover {
-    background-color: var(--accent-dark);
+    background-color: var(--anchor);
     color: var(--light);
     padding: 10px;
-}
-
-h2 {
-    justify-content: left;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 200%;
-    color: var(--anchor);
-    padding: 5px 0;
-    margin-left: 25px;
-}
-
-p {
-    font-size: 125%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #about-me {
@@ -100,6 +86,20 @@ p {
     justify-content: space-between;
 }
 
+h2 {
+    justify-content: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 200%;
+    color: var(--anchor);
+    padding: 5px 0;
+    margin-left: 25px;
+}
+
+p {
+    font-size: 125%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 #about-text {
     background-color: var(--light);
     padding: 10px;
@@ -107,7 +107,6 @@ p {
     display: flex;
     flex-wrap: wrap;
     width: 65%;
-    /* max-height: 260px; */
 }
 
 #personal-photo {
@@ -116,9 +115,6 @@ p {
     height: auto;
 }
 
-#about-me p{
-    margin-left: 25px;
-}
 #project-section {
     display:flex;
     flex-wrap: wrap;
@@ -202,15 +198,15 @@ footer ul {
 }
 
 footer a:link {
-    background-color: var(--accent-dark);
-    color: var(--anchor);
+    background-color: var(--anchor);
+    color: var(--light);
     padding: 10px;
     font-size: 150%;
 }
 
 footer a:visited {
-    background-color: var(--accent-dark);
-    color: var(--anchor);
+    background-color: var(--anchor);
+    color: var(--light);
     padding: 10px;
 }
 

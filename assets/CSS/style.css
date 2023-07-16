@@ -54,7 +54,8 @@ li {
 header a:link {
     background-color: var(--main-dark);
     color: var(--anchor);
-    padding: 3px;
+    padding: 10px;
+    font-size: 150%;
 }
 
 header a:visited {
@@ -65,8 +66,8 @@ header a:visited {
 
 header a:hover {
     background-color: var(--accent-dark);
-    color: var(--anchor);
-    padding:3px;
+    color: var(--light);
+    padding: 10px;
 }
 
 h2 {
@@ -189,19 +190,20 @@ footer ul {
 footer a:link {
     background-color: var(--accent-dark);
     color: var(--anchor);
-    padding: 3px;
+    padding: 10px;
+    font-size: 150%;
 }
 
 footer a:visited {
     background-color: var(--accent-dark);
     color: var(--anchor);
-    padding: 3px;
+    padding: 10px;
 }
 
 footer a:hover {
     background-color: var(--main-dark);
     color: var(--anchor);
-    padding:3px;
+    padding:10px;
 }
 
 @media screen and (max-width: 420px)  {
